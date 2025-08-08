@@ -8,14 +8,23 @@ Que serian estos archivos:
 
 .
 ├── LogMeIn Rescue AVI Codec
+
 │   ├── racode64.ax
+
 │   └── racodec.ax
+
 └── LogMeIn-Rescue-Technician-Console
+
     ├── LogMeInRescueTechnicianConsole_x64
+
     │   ├── CustomSRUploader.cmd
+
     │   ├── LMIGuardianDll.dll
+
     │   ├── LMIGuardianEvt.dll
+
     │   ├── LMIGuardianSvc.exe
+
     │   ├── LMIProxyHelper.exe
     │   ├── LMIRSrv.dll
     │   ├── LMIRTechConsole.exe
