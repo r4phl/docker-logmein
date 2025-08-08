@@ -1,7 +1,8 @@
 Hola. =)
 
 Para la instalacion de este programa, que solo esta para windows les dare un scritp de docker que ejecuta un wine
-Tienen que saber que primero deben descargar el programa logmein de windows en un un OS de windows y luegooooo, sacar el programa de las rutas de donde lo guarda windows.
+Tienen que saber que primero deben descargar el programa logmein de windows en un un OS de windows y luegooooo, sacar el programa de las rutas de donde lo guarda windows y meterlos en tu OS de Linux.
+En este caso en un debian.
 
 Se que esta parte se puedes por el mismo wine, pero es mucho complique que nos saltamos si solo sacamos estos archivos de la instalacion de windows. Total, solo necesitamos copiar los archivos .exe
 Que serian estos archivos:
