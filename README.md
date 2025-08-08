@@ -6,11 +6,11 @@ Tienen que saber que primero deben descargar el programa logmein de windows en u
 Se que esta parte se puedes por el mismo wine, pero es mucho complique que nos saltamos si solo sacamos estos archivos de la instalacion de windows. Total, solo necesitamos copiar los archivos .exe
 Que serian estos archivos:
 
-.
 ├── LogMeIn Rescue AVI Codec
 │   ├── racode64.ax
 │   └── racodec.ax
 └── LogMeIn-Rescue-Technician-Console
+
     ├── LogMeInRescueTechnicianConsole_x64
     │   ├── CustomSRUploader.cmd
     │   ├── LMIGuardianDll.dll
