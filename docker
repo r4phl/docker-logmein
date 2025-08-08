@@ -78,9 +78,10 @@ RUN WINEARCH=win64
 
 RUN WINEPREFIX=~/.wine64 winecfg
 
+ENV WINE_DISABLE_SHM=1
+ENV WINEDLLOVERRIDES="mscoree=d;mshtml=d"
+ENV LIBGL_ALWAYS_SOFTWARE=1
+ENV GALLIUM_DRIVER=llvmpipe
+
 # Ejecucion de logmein
-CMD wine /media/user_local/Apps/Logmein/7.50/LogMeIn-Rescue-Technician-Console/LogMeInRescueTechnicianConsole_x64/LMIRTechConsole.exe
-
-# docker build . -t logmein
-# docker run -it --device=/dev/snd  --device=/dev/dri -e DISPLAY=$DISPLAY  -v /tmp/.X11-unix:/tmp/.X11-unix:ro -v /home/:/media  -v /etc/alsa:/etc/alsa -v "/usr/share/alsa:/usr/share/alsa" -v "/home/user_local/.config/pulse:/home/user_local/.config/pulse" -v "/run/user/$UID/pulse/native:/run/user/$UID/pulse/native" --env "PULSE_SERVER=unix:/run/user/$UID/pulse/native" --user "$(id -u)" --name logmein -h logmein  logmein
-
+CMD wine /media/___USUARIO___/___CARPETA___/Logmein/7.50/LogMeIn-Rescue-Technician-Console/LogMeInRescueTechnicianConsole_x64/LMIRTechConsole.exe
